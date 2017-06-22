@@ -14,7 +14,8 @@ div {
     color: navajowhite;
   }
 
-#media {
-  max-width: 640px;
+@media (max-width: 640px){
+nav {
   flex-direction: column;
+}
 }
